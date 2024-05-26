@@ -1,0 +1,16 @@
+1. Create a folder
+2. Open terminal and cd/move in that path
+3. In terminal => npm init -y
+4. Install express => npm i express
+5. create "server.js / index.js" file
+
+6. To run server : node server.js (usually we are not using this more use point 11)
+
+7. Install Mongoose : npm i mongoose
+8. Install Nodemon : npm i nodemon 
+9. Go in package.jason do => "scripts": {
+                                "start": "node index.js",
+                                "dev": "nodemon index.js"
+                            },
+10. To make availabe your env file by "process.env.___" : npm i dotenv
+11. To run server :npm run dev

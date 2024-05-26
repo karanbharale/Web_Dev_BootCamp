@@ -1,0 +1,6 @@
+Step1 : Install node js
+Step2 : Open VS Code in your required folder
+Step3 : Open terminal
+Step4 : npx create-react-app <APP NAME>
+Step5 : Change directory to <APP NAME>
+Step6 : npm start

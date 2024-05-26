@@ -1,0 +1,13 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.Translated{
+    transform: perspective(15px) translateZ(-10px);
+}
+.Scaled{
+    margin-left: 100px;
+    transform:perspective(15px) translateZ(5px) rotateZ(-10deg) rotateX(5deg) rotateY(10deg);
+}

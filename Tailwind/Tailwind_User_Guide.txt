@@ -1,0 +1,13 @@
+1. Install Node.js in your system if not their.
+2. Run commande(in terminal)
+    I.  npm install -D tailwindcss postcss autoprefixer vite
+    II. npx tailwindcss init -p
+3. Install tailwind css intelisense extension in VsCode if not their.
+4. Add * in tailwind.config.js => content: ["*"]
+5. Add script block in package.json ==>  "scripts": {
+                                              "start": "vite"
+                                          },
+6. Create main.css file and add below things and link the file to index.html
+       - @tailwind base;
+       - @tailwind components;
+       - @tailwind utilities;

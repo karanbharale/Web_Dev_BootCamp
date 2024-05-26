@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Table Home Work - 2</title>
+  <style>
+    table,
+    td,
+    tr,
+    thead,
+    tbody,
+    tfoot {
+      border: 4px inset rgb(208, 191, 191);
+      border-collapse: collapse;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div></div>
+  <table>
+
+    <thead>
+      <tr>
+        <td rowspan="3">Day</td>
+        <td colspan="3">Seminar</td>
+      </tr>
+      <tr>
+        <td colspan="2">Schedule</td>
+        <td rowspan="2">Topic</td>
+      </tr>
+      <tr>
+        <td>Begin</td>
+        <td>End</td>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td rowspan="2">Monday</td>
+        <td rowspan="2" style="background-color: rgb(250, 250, 156)">
+          8:00 a.m.
+        </td>
+        <td rowspan="2" style="background-color: rgb(189, 136, 238)">
+          5:00 p.m.
+        </td>
+        <td>Introductio to XML</td>
+      </tr>
+      <tr>
+        <td>Validity: DTD and relax NG</td>
+      </tr>
+
+      <tr>
+        <td rowspan="3">Tuesday</td>
+        <td style="background-color: rgb(250, 250, 156)">8:00 a.m.</td>
+        <td style="background-color: rgb(250, 250, 156)">11:00 a.m.</td>
+        <td>XPath</td>
+      </tr>
+      <tr>
+        <td style="background-color: rgb(250, 250, 156)">11:00 a.m.</td>
+        <td style="background-color: rgb(163, 241, 163)">2:00 p.m. </td>
+        <td rowspan="2">XSL Transformatins</td>
+      </tr>
+      <tr>
+        <td style="background-color: rgb(163, 241, 163)">2:00 p.m.</td>
+        <td style="background-color: rgb(189, 136, 238)">5:00 p.m.</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <td>Wednesday</td>
+      <td style="background-color: rgb(250, 250, 156)">8:00 a.m.</td>
+      <td style="background-color: rgb(163, 241, 163)">12:00 p.m.</td>
+      <td>XLS Formatting Objects</td>
+    </tfoot>
+
+  </table>
+</body>
+
+</html>

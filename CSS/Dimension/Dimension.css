@@ -1,0 +1,16 @@
+.box{
+    border: 1px solid black;
+    max-height: 100px;
+    overflow: scroll;
+}
+.box2{
+    margin: 10px;
+    border: 2px solid black;
+    min-height: 100px;
+}
+.divi{
+    margin: 10px;
+    border: 2px solid black;
+    height: 50px;
+    overflow: auto;
+}
